@@ -1,0 +1,33 @@
+.user {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    
+    align-items: center;
+    gap: 1.5rem;
+
+    border-bottom: 1px solid gray;
+    
+}
+
+.user:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.user h2 {
+    font-size: 16px;
+}
+.info .location {
+    font-size: 12px;
+}
+.user figure {
+    width: 50px;
+    margin: 0;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user figure img {
+    width: 100%;
+    margin: 0;
+}
