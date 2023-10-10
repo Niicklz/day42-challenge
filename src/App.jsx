@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./styles.css";
 import { User } from "./components/User/User";
 import { useFetch } from "./utils/useFetch";
-import {urban} from "../public/urban-654.png"
+import urban from "../public/urban.png";
 
 export const App = () => {
   const { info, status, getData } = useFetch({
