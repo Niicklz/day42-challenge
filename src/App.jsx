@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./styles.css";
 import { User } from "./components/User/User";
 import { useFetch } from "./utils/useFetch";
+import {urban} from "../public/urban-654.png"
 
 export const App = () => {
   const { info, status, getData } = useFetch({
@@ -64,7 +65,7 @@ export const App = () => {
             ))}
           {searchedUsers.length === 0 && searching && (
             <figure className="not-found-cont">
-              <img src="/public/urban-654.png" />{" "}
+              <img src={urban} />{" "}
               <span className="notfound">User Not Found! </span>
             </figure>
           )}
